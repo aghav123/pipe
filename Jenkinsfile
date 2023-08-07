@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'javac HelloWorld.java'
+        sh 'mvn compile'
       }
     }
 
